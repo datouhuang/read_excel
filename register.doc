@@ -1,0 +1,258 @@
+
+
+
+//2800  [7:7]  rsvd8
+//      [6:6]  reg_dsc_dbg_en_b0
+//      [5:5]  reg_dsc_mode2_en_b0
+//      [4:4]  reg_dsc_mode1_en_b0
+//      [3:3]  reg_dsc_mode0_en_b0
+//      [2:2]  reg_dsc_mirror_en_b0
+//      [1:1]  reg_dsc_flip_en_b0
+//      [0:0]  reg_dsc_en_b0
+
+
+
+//2801  [7:0]  reg_dsc_col_st_b0
+
+
+
+//2802  [7:6]  rsvd24
+//      [5:0]  reg_dsc_col_st_b1
+
+
+
+//2803  [7:0]  reg_dsc_col_ed_b0
+
+
+
+//2804  [7:6]  rsvd40
+//      [5:0]  reg_dsc_col_ed_b1
+
+
+
+//2805  [7:0]  reg_dsc_row_st_b0
+
+
+
+//2806  [7:6]  rsvd56
+//      [5:0]  reg_dsc_row_st_b1
+
+
+
+//2807  [7:0]  reg_dsc_row_ed_b0
+
+
+
+//2808  [7:6]  rsvd72
+//      [5:0]  reg_dsc_row_ed_b1
+
+
+
+//2809  [7:0]  reg_dsc_agn_scale_b0
+
+
+
+//280A  [7:0]  reg_dsc_agn_min_b0
+
+
+
+//280B  [7:0]  reg_dsc_agn_now_b0
+
+
+
+//280C  [7:4]  rsvd104
+//      [3:0]  reg_dsc_agn_k_b0
+
+
+
+//280D  [7:0]  reg_dsc_exp_scale_b0
+
+
+
+//280E  [7:0]  reg_dsc_exp_min_time_b0
+
+
+
+//280F  [7:0]  reg_dsc_exp_min_time_b1
+
+
+
+//2810  [7:1]  rsvd136
+//      [0:0]  reg_dsc_exp_min_time_b2
+
+
+
+//2811  [7:0]  reg_dsc_exp_now0_b0
+
+
+
+//2812  [7:0]  reg_dsc_exp_now0_b1
+
+
+
+//2813  [7:0]  reg_dsc_exp_now1_b0
+
+
+
+//2814  [7:0]  reg_dsc_exp_now1_b1
+
+
+
+//2815  [7:0]  reg_dsc_exp_now2_b0
+
+
+
+//2816  [7:0]  reg_dsc_exp_now2_b1
+
+
+
+//2817  [7:0]  reg_dsc_exp_now3_b0
+
+
+
+//2818  [7:0]  reg_dsc_exp_now3_b1
+
+
+
+//2819  [7:4]  rsvd208
+//      [3:0]  reg_dsc_offset_bb_b0
+
+
+
+//281A  [7:4]  rsvd216
+//      [3:0]  reg_dsc_offset_gb_b0
+
+
+
+//281B  [7:4]  rsvd224
+//      [3:0]  reg_dsc_offset_gr_b0
+
+
+
+//281C  [7:4]  rsvd232
+//      [3:0]  reg_dsc_offset_rr_b0
+
+
+
+//281D  [7:0]  reg_dsc_mode_target0_b0
+
+
+
+//281E  [7:2]  rsvd248
+//      [1:0]  reg_dsc_mode_target0_b1
+
+
+
+//281F  [7:0]  reg_dsc_mode_target1_b0
+
+
+
+//2820  [7:2]  rsvd264
+//      [1:0]  reg_dsc_mode_target1_b1
+
+
+
+//2821  [7:0]  reg_dsc_mode_target2_b0
+
+
+
+//2822  [7:2]  rsvd280
+//      [1:0]  reg_dsc_mode_target2_b1
+
+
+
+//2823  [7:4]  rsvd288
+//      [3:0]  reg_dsc_mode_k0_b0
+
+
+
+//2824  [7:4]  rsvd296
+//      [3:0]  reg_dsc_mode_k1_b0
+
+
+
+//2825  [7:4]  rsvd304
+//      [3:0]  reg_dsc_mode_k2_b0
+
+
+
+//2826  [7:6]  rsvd312
+//      [5:0]  reg_dsc_ratio0_b0
+
+
+
+//2827  [7:6]  rsvd320
+//      [5:0]  reg_dsc_ratio1_b0
+
+
+
+//2828  [7:6]  rsvd328
+//      [5:0]  reg_dsc_ratio2_b0
+
+
+
+//2829  [7:6]  rsvd336
+//      [5:0]  reg_dsc_ratio3_b0
+
+
+
+//282A  [7:0]  reg_dsc_blk_w_b0
+
+
+
+//282B  [7:1]  rsvd352
+//      [0:0]  reg_dsc_blk_w_b1
+
+
+
+//282C  [7:0]  reg_dsc_blk_h_b0
+
+
+
+//282D  [7:1]  rsvd368
+//      [0:0]  reg_dsc_blk_h_b1
+
+
+
+//282E  [7:0]  reg_dsc_scale_w_b0
+
+
+
+//282F  [7:0]  reg_dsc_scale_w_b1
+
+
+
+//2830  [7:0]  reg_dsc_scale_h_b0
+
+
+
+//2831  [7:0]  reg_dsc_scale_h_b1
+
+
+
+//2832  [7:3]  rsvd408
+//      [2:0]  reg_dsc_dbg_lsft_b0
+
+
+
+//2833  [7:6]  rsvd416
+//      [5:0]  reg_dsc_tbl_e_ratio_b0
+
+
+
+//2834  [7:0]  reg_dsc_exp_linetime_b0
+
+
+
+//2835  [7:0]  reg_dsc_exp_linetime_b1
+
+
+
+//2836  [7:2]  rsvd440
+//      [1:1]  reg_dsc_mem_apb_en
+//      [0:0]  reg_dsc_man_ctrl_b0
+
+
+
+//2837  [7:2]  rsvd448
+//      [1:0]  reg_dsc_type_b0
